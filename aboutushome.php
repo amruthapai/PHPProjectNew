@@ -295,19 +295,59 @@
  <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-6 slideanim">
+      <br><br><br><br><br><br>
       <h2>About Us</h2><br>
       <p>Story of JODOGO evolved through its founders long back and we put forward our foot formally on Jan 2020.
       We born in a challenging year but the path was defined for us much before. We are fervid on Information Technology Enable Services.
       Aiming to provide pre-eminent services and combining creativity + technology to enable zillion smiley faces.</p>
     </div>
     <div class="col-sm-4 slideanim">
+     <br><br><br><br><br><br><br><br><br>
       <img  src="https://cdn.images.express.co.uk/img/dynamic/17/590x/meet-636206.jpg"/>
     </div>
   </div>
 </div>
+<!-- Customers say -->
 
+<div class="jumbotron text-center">
+  <div id="myCarouselCust" class="carousel slide" data-ride="carousel">
+     <h2>What our customers say</h2>
+     <br><br><br>
+<!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarouselCust" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarouselCust" data-slide-to="1"></li>
+      <li data-target="#myCarouselCust" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+      <h4>"Thank you JODOGO for your on-time and great services.With your help, I had a worry- free passage through airport. I’m glad that I chose your assistance and you did a really good job."<br><span><br><strong>Sean Parker</strong></span></h4> </div>
+      <div class="item">
+        <h4>"Thank you JODOGO, for your assistance given to my mother who needed wheelchair support. You guys helped her with her wheelchair access and language problems. A big thanks for your team for making her 1st airline experience simple and safe."<br><span><br><strong>Ritu Gupta</strong></span></h4>
+      </div>
+      <div class="item">
+        <h4>"Their meet and greet service is highly appreciable. The staffs were genuinely kind and welcomed us with a flower bouquet at the decided waiting area. Good job JODOGO team.
+		"<br><span><br><strong>Sonia Paul</strong></span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarouselCust" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarouselCust" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<!-- End of customer say -->
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
+<br><br><br><br><br>
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5 slideanim" >
@@ -323,7 +363,7 @@
        <a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
        </span></p>            
     </div>
-    <div class="col-sm-6 slideanim">
+    <div class="col-sm-5 slideanim">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
