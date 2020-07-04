@@ -208,6 +208,42 @@
   }
   </style>
 </head>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="40">
 
 <nav class="navbar navbar-default navbar-fixed-top" >
@@ -291,7 +327,7 @@
 </div>
 
 <!-- Container (About Section) -->
- <div id="about" class="container-fluid">
+ <div id="about" class="container-fluid slideanim">
     <div class="row">
     <div class="col-sm-17 slideanim">
       <h2 style="color:#670067;text-align:center" ><strong>Bonjour!</strong></h2><p>JODOGO promises you the freedom to fly without worries. We will take care all the airport heck and provide you with our world class service. You can be an individual, a group, a lovely family, a business tycoon, jet owners or disabled - we serve you all with great passion.</p>
@@ -299,9 +335,9 @@
 
     
     </div>
-    <div class="col-sm-6 slideanim">
+    <div class="col-sm-6">
     <br><br><br>
-      <h2>About Us</h2><br>
+      <h2 style="text-decoration: underline; color:#670067">About Us</h2><br>
       <p>Story of JODOGO evolved through its founders long back and we put forward our foot formally on Jan 2020.
       We born in a challenging year but the path was defined for us much before. We are fervid on Information Technology Enable Services.
       Aiming to provide pre-eminent services and combining creativity + technology to enable zillion smiley faces.</p>
@@ -316,7 +352,7 @@
 <!-- Services Section -->
 <!-- Container (Services Section) -->
  <div id="services" class="container-fluid text-left">
-   <h2>SERVICES</h2>
+   <h2 style="text-decoration: underline; color:#670067">SERVICES</h2>
   <p>With the help of our services, you will have the luxury of having us escort and expedite airport procedures including passport control.On Arrival - Meet and Greet services, passport control, baggage handling and personally escort you to your driver.On Departure- all airport procedures via VIP counters until after passport control.Exclusive chauffeur services.Airline Transfer and Transit purposes.Tailor-made services for People with Special Needs.</p>
   <br>
 
@@ -359,7 +395,7 @@
       <div class="modal-content" class="responsive-tabs">
         <div class="modal-header text-center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4>DEPARTURE</h4>
+          <h4 style="color:#670067">DEPARTURE</h4>
       	  <p>Stress-Free Services</p>
            </div>
            <div class="modal-body">
@@ -410,7 +446,7 @@
       <div class="modal-content" class="responsive-tabs">
         <div class="modal-header text-center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4>ARRIVAL</h4>
+          <h4 style="color:#670067">ARRIVAL</h4>
       	  <p>Time-Saving Services</p>
            </div>
            <div class="modal-body">
@@ -462,7 +498,7 @@
       <div class="modal-content" class="responsive-tabs">
         <div class="modal-header text-center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4>TRANSFER</h4>
+          <h4 style="color:#670067">TRANSFER</h4>
       	  <p>Comfortable Transfer Services</p>
            </div>
            <div class="modal-body">
@@ -520,7 +556,7 @@
       <div class="modal-content" class="responsive-tabs">
         <div class="modal-header text-center">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4>SPECIAL NEEDS</h4>
+          <h4 style="color:#670067">SPECIAL NEEDS</h4>
       	  <p>Assistance & Medical Services</p>
            </div>
            <div class="modal-body">
@@ -568,7 +604,7 @@
 
 <div class="jumbotron text-center">
   <div id="myCarouselCust" class="carousel slide" data-ride="carousel">
-     <h2>What our customers say</h2>
+     <h2 style="color:#670067">What our customers say</h2>
      <br><br><br>
 <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -620,7 +656,7 @@
        <a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
        </span></p>            
     </div>
-    <div class="col-sm-5 slideanim">
+    <div class="col-sm-5">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -649,41 +685,6 @@
   <p>Copyright © 2019 Jodogo. Design & Develop by <a href="#" style="text-decoration: none">Jodogo.</a></p>
 </footer>
 
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
 </body>
 </html>
