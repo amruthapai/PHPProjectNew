@@ -36,11 +36,11 @@
   .jumbotron {
     background-color: #ffffff;
     color: #fff;
-    padding: 100px 25px;
+    padding: 190px 25px;
     font-family: Montserrat, sans-serif;
   }
   .container-fluid {
-    padding: 60px 50px;
+    padding: 40px 50px;
   }
   .bg-grey {
     background-color: #E8E8E8;
@@ -148,7 +148,7 @@
   footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #800080; //#f4511e;
+    color: #670067; //#f4511e;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -208,7 +208,7 @@
   }
   </style>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="40">
 
 <nav class="navbar navbar-default navbar-fixed-top" >
   <div class="container">
@@ -288,25 +288,282 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
-
 </div>
 
 <!-- Container (About Section) -->
  <div id="about" class="container-fluid">
-  <div class="row">
+    <div class="row">
+    <div class="col-sm-17 slideanim">
+      <h2 style="color:#670067;text-align:center" ><strong>Bonjour!</strong></h2><p>JODOGO promises you the freedom to fly without worries. We will take care all the airport heck and provide you with our world class service. You can be an individual, a group, a lovely family, a business tycoon, jet owners or disabled - we serve you all with great passion.</p>
+
+
+    
+    </div>
     <div class="col-sm-6 slideanim">
-      <br><br><br><br><br><br>
+    <br><br><br>
       <h2>About Us</h2><br>
       <p>Story of JODOGO evolved through its founders long back and we put forward our foot formally on Jan 2020.
       We born in a challenging year but the path was defined for us much before. We are fervid on Information Technology Enable Services.
       Aiming to provide pre-eminent services and combining creativity + technology to enable zillion smiley faces.</p>
     </div>
     <div class="col-sm-4 slideanim">
-     <br><br><br><br><br><br><br><br><br>
+    <br><br><br>
       <img  src="https://cdn.images.express.co.uk/img/dynamic/17/590x/meet-636206.jpg"/>
     </div>
   </div>
 </div>
+
+<!-- Services Section -->
+<!-- Container (Services Section) -->
+ <div id="services" class="container-fluid text-left">
+   <h2>SERVICES</h2>
+  <p>With the help of our services, you will have the luxury of having us escort and expedite airport procedures including passport control.On Arrival - Meet and Greet services, passport control, baggage handling and personally escort you to your driver.On Departure- all airport procedures via VIP counters until after passport control.Exclusive chauffeur services.Airline Transfer and Transit purposes.Tailor-made services for People with Special Needs.</p>
+  <br>
+
+  
+  <div class="row slideanim text-center">
+    <div class="col-sm-2">
+    </div>
+    <div class="col-sm-4">
+      <a data-toggle="modal" data-target="#myModal"><i class="dep-icon"><img src="https://jodogoairportassist.com/main/assets/images/ser-departures.png" alt=""></i></a>
+      <h4>DEPARTURE</h4>
+      <p>Stress-Free Services</p>
+    </div>
+    <div class="col-sm-4">
+      <a data-toggle="modal" data-target="#myModal1"><i class="dep-icon"><img src="https://jodogoairportassist.com/main/assets/images/ser-arrivals.png" alt=""></i></a>
+      <h4>ARRIVAL</h4>
+      <p>Time-Saving Services</p>
+    </div>
+    </div>
+  <br><br>
+  <div class="row slideanim text-center">
+     <div class="col-sm-2">
+    </div>
+  <div class="col-sm-4">
+      <a data-toggle="modal" data-target="#myModal2"><i class="dep-icon"><img width="125" height="125" src="https://jodogoairportassist.com/main/assets/images/transfer-icon.png" alt=""></i></a>
+      <h4>TRANSFER</h4>
+      <p>Comfortable Transfer Services</p>
+    </div>
+   <div class="col-sm-4">
+      <a data-toggle="modal" data-target="#myModal3"><i class="dep-icon"><img  src="https://jodogoairportassist.com/main/assets/images/ser-special-needs.png" alt=""></i></a>
+      <h4>SPECIAL NEEDS</h4>
+      <p>Assistance & Medical Services</p>
+    </div>
+  </div>
+
+   <!-- Modal content-->
+  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    
+     
+      <div class="modal-content" class="responsive-tabs">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4>DEPARTURE</h4>
+      	  <p>Stress-Free Services</p>
+           </div>
+           <div class="modal-body">
+              <div class="container-fluid text-left">
+              <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo" data-toggle="collapse" style="text-decoration: none" target="_blank">Meet and Greet at the Airport</a></p>
+              <div id="demo" class="collapse">
+                <p>We provide Meet and Greet facility at the meeting point decided within the terminal building or at the specified location within the airport as required. (Meeting points may vary according to airport specifications.) Our representative will be available at the specified meeting point with the name board to greet you, and take you to the required gate for departure or for transfers. (A bouquet of flowers may be included if requested for meet and greet.)</p></div>
+              
+              <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo1" data-toggle="collapse" style="text-decoration: none" target="_blank">Baggage Handling Services</a></p>
+              			   <div id="demo1" class="collapse">
+                <p>We provide porter services for collecting luggage from your vehicle to the check in counter. Please do notify beforehand the number of baggage you have while availing this service. (Extra fee may be applied for porter service at certain airports.)<p></div>
+              <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo2" data-toggle="collapse" style="text-decoration: none" target="_blank">Priority Check-in</a></p>
+              			   <div id="demo2" class="collapse">
+                <p>Our representative will provide assistance to you during the check in procedures at the check in counter. We will ensure that you receive our assistance with seat selection, baggage handling and boarding<p></div>
+           	  <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo3" data-toggle="collapse" style="text-decoration: none" target="_blank">Fast Track - Passport And Customs</a></p>
+              			   <div id="demo3" class="collapse">
+                <p>In order to avoid lines at passport control and custom clearance (where applicable), our professional representative will walk you through the fast track process. Each airport varies depending on the specific rules of airports, airlines and countries.<p></div>
+           	  <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo4" data-toggle="collapse" style="text-decoration: none" target="_blank">Lounge Access</a></p>
+              			   <div id="demo4" class="collapse">
+                <p>Our representative will escort you or your guests to the airport lounge so you can relax before your flight and enjoy complimentary snacks and drinks. They will then accompany you to the departure gate when it’s time to board the flight.<p></div>
+          	  <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo5" data-toggle="collapse" style="text-decoration: none" target="_blank">Flight Monitoring</a></p>
+              			   <div id="demo5" class="collapse">
+                <p>Our representative will continuously monitor the flight timing and keep you updated so you can relax without worrying about missing the flight.</p></div>
+                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo6" data-toggle="collapse" style="text-decoration: none" target="_blank">Upgrade and  Re-Booking</a></p>
+              			   <div id="demo6" class="collapse">
+                <p>Our representative will assist you in upgrading your travel class and in re booking a flight in case of cancellation, change in plan, or missed flight.</p></div>
+                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo7" data-toggle="collapse" style="text-decoration: none" target="_blank">Escort to Aircraft</a></p>
+              			   <div id="demo7" class="collapse">
+                <p>Once you have successfully checked-in and completed all of your luggage and security transactions, you will be personally escorted to the departure gate to board your flight. Pre boarding help where eligible and allowed.</p></div>
+                
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+       
+      </div>
+      
+      </div>
+      
+    </div>
+   
+    </div>
+    <!-- A New Modal -->
+    <div class="modal fade" id="myModal1" role="dialog">
+  <div class="modal-dialog">
+    
+     
+      <div class="modal-content" class="responsive-tabs">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4>ARRIVAL</h4>
+      	  <p>Time-Saving Services</p>
+           </div>
+           <div class="modal-body">
+              <div class="container-fluid text-left">
+              <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo10" data-toggle="collapse" style="text-decoration: none" target="_blank">Meet and Greet at Arrival Airport</a></p>
+              <div id="demo10" class="collapse">
+                <p>Our professional representative will meet you at the aircraft (where allowed), the passenger bridge or the agreed upon meeting point within the terminal building. (Meeting points vary according to specific airports.)</p></div>
+              
+              <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo11" data-toggle="collapse" style="text-decoration: none" target="_blank">Passport Fast Track</a></p>
+              			   <div id="demo11" class="collapse">
+                <p>In order to avoid lines at passport control and custom clearance (where applicable), our professional representative will walk you through the fast track process. Each airport varies depending on the specific regulations of airports, airlines and countries.<p></div>
+              <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo12" data-toggle="collapse" style="text-decoration: none" target="_blank">Floral Welcome Bouquet</a></p>
+              			   <div id="demo12" class="collapse">
+                <p>Deliver flowers to your loved ones on arriving from a long journey, or setting off on an adventure. Our representative will meet and greet them at the gate or at the entrance of the terminal with a gorgeous bouquet of flowers.<p></div>
+           	  <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo13" data-toggle="collapse" style="text-decoration: none" target="_blank">Baggage Handling Service</a></p>
+              			   <div id="demo13" class="collapse">
+                <p>Porters will collect your luggage at the baggage claim area and bring them to your vehicle. Please notify the number of baggage while making the booking. (An extra fee may apply for porter service at certain airports.)</p></div>
+           	  <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo14" data-toggle="collapse" style="text-decoration: none" target="_blank">Visa and Security Clearance</a></p>
+              			   <div id="demo14" class="collapse">
+               <p>Once you land, our representative will assist you with all the post-flight procedures such as acquiring a visa, currency transaction, customs and security clearances.</p></div>
+          	  <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo15" data-toggle="collapse" style="text-decoration: none" target="_blank">Send-Off</a></p>
+              			   <div id="demo15" class="collapse">
+                <p>Our representative will continuously monitor the flight timing and keep you updated so you can relax without worrying about missing the flight.</p></div>
+                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo16" data-toggle="collapse" style="text-decoration: none" target="_blank">Cart Transport Inside Airport</a></p>
+              			   <div id="demo16" class="collapse">
+                <p>Once you land, our representative will assist you with all the post-flight procedures such as acquiring a visa, currency transaction, customs and security clearances.</p></div>
+                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo17" data-toggle="collapse" style="text-decoration: none" target="_blank">Escort to Aircraft</a></p>
+              			   <div id="demo17" class="collapse">
+                <p>Once you have successfully checked-in and completed all of your luggage and security transactions, you will be personally escorted to the departure gate to board your flight. Pre boarding help where eligible and allowed.</p></div>
+                
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+       
+      </div>
+      
+      </div>
+      
+    </div>
+   
+    </div>
+    <!-- End of anew Modal -->
+     <!-- A New Modal3 -->
+    <div class="modal fade" id="myModal2" role="dialog">
+  <div class="modal-dialog">
+    
+     
+      <div class="modal-content" class="responsive-tabs">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4>TRANSFER</h4>
+      	  <p>Comfortable Transfer Services</p>
+           </div>
+           <div class="modal-body">
+              <div class="container-fluid text-left">
+              <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo20" data-toggle="collapse" style="text-decoration: none" target="_blank">Meet and Greet at the Transfer Airport</a></p>
+              <div id="demo20" class="collapse">
+                <p>Our professional representative will meet you at the aircraft (where allowed), the passenger bridge or the agreed upon meeting point within the terminal building. (Meeting points vary according to specific airports.)</p></div>
+              
+              <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo21" data-toggle="collapse" style="text-decoration: none" target="_blank">Lounge Access</a></p>
+              			   <div id="demo21" class="collapse">
+                <p>Our professional representative will escort you or your guests to the airport lounge to relax before your flight, where you can enjoy complimentary snacks and drinks. Our representative will then accompany you to the departure gate when it’s time to board the flight<p></div>
+              <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo22" data-toggle="collapse" style="text-decoration: none" target="_blank">Cart Transport Inside Airport</a></p>
+              			   <div id="demo22" class="collapse">
+                <p>Our representative will transport you in an electric cart from the flight gate to passport control. Note: rules vary at airports around the world as it relates to our representatives' access to the gates. <p></div>
+           	  <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo23" data-toggle="collapse" style="text-decoration: none" target="_blank">Flight Monitoring</a></p>
+              			   <div id="demo23" class="collapse">
+                <p>Our representative will continuously monitor the flight timing and keep you updated so you can relax without worrying about missing the flight.</p></div>
+           	  <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo24" data-toggle="collapse" style="text-decoration: none" target="_blank">Visa and Security Clearance</a></p>
+              			   <div id="demo24" class="collapse">
+               <p>Our representative will assist you with all post-flight procedures such as acquiring a visa, currency transaction, customs and security clearances during your stopover.</p></div>
+          	  <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo25" data-toggle="collapse" style="text-decoration: none" target="_blank">Upgrades and Re-Booking</a></p>
+              			   <div id="demo25" class="collapse">
+                <p>Our representative will assist you in upgrading your travel class and in re booking a flight in case of cancellation, change in plan, or missed flight.<</p></div>
+                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo26" data-toggle="collapse" style="text-decoration: none" target="_blank">Passport Fast Track</a></p>
+              			   <div id="demo26" class="collapse">
+                <p>In order to avoid lines at passport control and custom clearance (where applicable), our professional greeter will walk you through the fast track process. Each airport varies depending on the specific rules of airports, airlines and countries.</p></div>
+                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo27" data-toggle="collapse" style="text-decoration: none" target="_blank">Connecting Flight Accommodation</a></p>
+              			   <div id="demo27" class="collapse">
+                <p>Accommodation in airport hotels can be made for passengers with long lay over during transfers. Our representative will assist you with all post-flight procedures such as acquiring a visa, currency transaction, customs and security clearances during your stopover and escort you to the hotel.</p></div>
+                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo28" data-toggle="collapse" style="text-decoration: none" target="_blank">Baggage Handling Service</a></p>
+              			   <div id="demo28" class="collapse">
+                <p>Porters will assist you through the fast track with your baggage through custom clearance. This service varies depending on the rules and regulations at specific airports and airlines.</p></div>
+                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#demo28" data-toggle="collapse" style="text-decoration: none" target="_blank">Escort to Aircraft</a></p>
+              			   <div id="demo28" class="collapse">
+                <p>Once you have successfully checked-in and completed all of your luggage and security transactions, you will be personally escorted to the departure gate to board your flight. Pre boarding help where eligible and allowed.</p></div>
+                
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+       
+      </div>
+      
+      </div>
+      
+    </div>
+   
+    </div>
+    <!-- End of anew Modal3 -->
+     <!-- A New Modal4 -->
+    <div class="modal fade" id="myModal3" role="dialog">
+  <div class="modal-dialog">
+    
+     
+      <div class="modal-content" class="responsive-tabs">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4>SPECIAL NEEDS</h4>
+      	  <p>Assistance & Medical Services</p>
+           </div>
+           <div class="modal-body">
+              <div class="container-fluid text-left">
+              <p><a href="#demo30" data-toggle="collapse" style="text-decoration: none" target="_blank">Baggage Handling Service</a></p>
+              <div id="demo30" class="collapse">
+                <p>Porters will assist you through the fast track with your baggage through custom clearance. This service varies depending on the rules and regulations at specific airports and airlines.</p></div>
+              
+              <p><a href="#demo31" data-toggle="collapse" style="text-decoration: none" target="_blank">Mobility and Health Related Service</a></p>
+              			   <div id="demo31" class="collapse">
+                <p>Wheelchair assistance <br>Medical oxygen<br>Airport Assistance<br>Seating accommodationsAirport Assistance<br>Cognitive and developmental assistance<br>Assistance for deaf or hard of hearing<br>Assistance for blind or low vision<p></div>
+              <p><a href="#demo32" data-toggle="collapse" style="text-decoration: none" target="_blank">Safety Assistant</a></p>
+              			   <div id="demo32" class="collapse">
+                <p>Airlines do not offer in- flight assistance with any medical services, assistance inside the lavatory, or in actual feeding for passengers with disability. Our safety assistant can take care of all those needs and more. The primary role of the personal safety assistant is to assist a disabled customer exiting the aircraft in case of an emergency evacuation or to establish communication for the required safety briefing, and assist with the medical, feeding and lavatory needs of a disabled customer. <p></div>
+           	  <p><a href="#demo33" data-toggle="collapse" style="text-decoration: none" target="_blank">Traveling with Infants</a></p>
+              			   <div id="demo33" class="collapse">
+                <p>Sometimes you just need another pair of hands when traveling with infants and little kids. We can provide that extra assistance to passengers traveling with small children, allowing adult clients to travel stress-free.</p></div>
+           	  <p><a href="#demo34" data-toggle="collapse" style="text-decoration: none" target="_blank">Unaccompanied Minor Service</a></p>
+              			   <div id="demo34" class="collapse">
+               <p>MUrgency Airport Assistance service is perfect for any parent who wants to make sure their child gets to/from their plane with ease. A representative will stay by their side and advise a friend or family member of the status along the way.</p></div>
+          	  <p><a href="#demo35" data-toggle="collapse" style="text-decoration: none" target="_blank">Traveling with Pets</a></p>
+              			   <div id="demo35" class="collapse">
+                <p>Whether traveling with a pet, Assist Dogs or comfort animal, we can help make yours and your furry friend’s travel comfortable.</p></div>
+                <p><a href="#demo36" data-toggle="collapse" style="text-decoration: none" target="_blank">Speacial Meal</a></p>
+              			   <div id="demo36" class="collapse">
+                <p>We can make arrangement for special meals in flight and at the airport, according to your dietary needs.</p></div>      
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+       
+      </div>
+      
+      </div>
+      
+    </div>
+   
+    </div>
+    <!-- End of anew Modal4 -->
+    </div>
+</div>
+
+<!-- End of service section -->
 <!-- Customers say -->
 
 <div class="jumbotron text-center">
@@ -346,7 +603,7 @@
 </div>
 <!-- End of customer say -->
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
+<div id="contact" class="container-fluid" style="background-image: url('https://thumbs.dreamstime.com/t/floral-vintage-ornaments-gray-seamless-patterns-fabric-wallpaper-vector-illustration-92874051.jpg')">
 <br><br><br><br><br>
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
@@ -389,7 +646,7 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Copyright © 2019 Jodogo. Design & Develop by <a href="#">Jodogo.</a></p>
+  <p>Copyright © 2019 Jodogo. Design & Develop by <a href="#" style="text-decoration: none">Jodogo.</a></p>
 </footer>
 
 <script>
